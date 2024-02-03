@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* styling nav bar */
+.border:hover{
+    text-decoration: underline;
+}
+.nav-bar{
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 108px;
+    height: 23px;
+    padding: 0px 24px;
+}
+.nav-items{
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items div{
+    padding: 9px;
+}
+.nav-icons{
+    display: flex;
+    margin-right: 25px;
+}
+.nav-icons div{
+    padding: 9px;
+}
+.nav-icons i{
+    font-size: 20px;
+}
+
+/* styling nav 2 */
+.nav-2{
+    height: 58px;
+    background-color: #0067B8;
+    color: white;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-2:hover{
+    text-decoration: underline;
+}
+/* styling section */
+.bg1{
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP4-1399x600");
+}
+
+.section{
+    width: 60%;
+    height: 300px;
+    width: 350px;
+    margin-left: 120px;
+    padding-top: 100px;
+}
+.section-heading{
+    font-weight: 550;
+    font-size: 24px;
+    height: 100px;
+}
+.section-text{
+    margin-top: 10px;
+    height: 90px;
+    font-size: 16px;
+}
+.btn{
+    background-color: #0067B8;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #0067B8;
+    border-radius: 2px;
+    padding: 11px;
+}
+.section-btn{
+    width: 137px;
+    height: 50px;
+}
+.section-link i{
+    color: #0067B8;
+}
+.section-link a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #0067B8;
+}
+.section-link{
+    height: 40px;
+    width: 171px;
+}
+.section-link a:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    background-color: #0260a8;
+}
+
+/* styling list */
+.un-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.un-list li{
+    list-style-type: none;
+}
+.un-list li i{
+    font-size: 40px;
+}
+.un-list li div{
+    margin-top: 15px;
+}
+.un-list li a{
+    color: #0067B8;
+}
+.section-list-div{
+    padding: 35px;
+}
+
+/* styling images section */
+.images-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-section-icon a{
+    color: #0067B8;
+    text-decoration: none;
+}
+.image-section-icon a:hover{
+    text-decoration: underline;
+}
+.images-section img{
+    width: 230px;
+    height: 130px;
+}
+/* styling image card 1 */
+.image-card1{
+    width: 230px;
+}
+.image-card2{
+    width: 230px;
+}
+.image-card3{
+    width: 230px;
+}
+.image-card4{
+    width: 230px;
+}
+.images-section h3{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.images-section p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.images-section div{
+    margin-top: 10px;
+}
+.images-section a{
+    font-size: 16px;
+}
+
+/* bg2 styling */
+.bg2{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 1145px;
+    height: 470px;
+    background-image: url("./Images/bg\ mid\ microsoft.jpeg");
+    color: white;
+}
+.bg2 a{
+    color: white;
+}
+.bg2.section{
+    width: 370px;
+    height: 320px;
+}
+.bg2 h2{
+    height: 50px;
+}
+
+/* styling image-section 2 */
+
+#business-heading{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+/* applied same styling properties as same as to the image section */
+
+/* footer styling */
+.footer-section{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+}
+.icons{
+    margin-left: 30px;
+    height: 32px;
+    width: 32px;
+}
+
+.footer-button button{
+    position: sticky;
+    margin-left: 1120px;
+    width: 143px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(226, 221, 221);
+    border: none;
+}
+.footer-button button:hover{
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 2.5px;
+}
+
+/* styling footer list */
+.footer-list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list div{
+    margin: 55px;
+    width: 255px;
+}
+.footer-list li{
+    list-style-type: none;
+}
+.footer-list li a{
+    padding: 10px 0px 10px 0px;
+    line-height: 10px;
+    font-size: 11px;
+    color: #616161;
+    text-decoration: none;
+}
+.footer-head{
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    color: #616161;
+    font-weight: 700;
+}
+.footer-list li a:hover{
+    text-decoration: underline;
+}
+.footer-section2{
+    background-color: rgb(244, 244, 244);
+}
+.footer-section2 a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 11px;
+}
+.footer-section2 li{
+    margin-top: 10px;
+}
+.footer-section2 i{
+    margin-left: 60px;
+    color: #616161;
+}
+.footer-section2 a:hover{
+    text-decoration: underline;
+}
+.footer-svg a{
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.footer-line{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-line a{
+    margin: 0px 0px 5px 10px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
